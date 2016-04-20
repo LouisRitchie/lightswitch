@@ -1,1 +1,1 @@
-# lightswitch
+# lightswitch### makes heavy use of current frontend tools but has no set purpose.---### play with the current version locally.1. clone this repo2. `npm start` in the root directory.3. point your browser to http://localhost:8080

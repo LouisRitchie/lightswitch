@@ -1,0 +1,24 @@
+{
+  "name": "lightswitch",
+  "version": "0.0.0",
+  "description": "react app",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --context-base build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LouisRitchie/lightswitch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LouisRitchie/lightswitch/issues"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.12.0"
+  }
+}
