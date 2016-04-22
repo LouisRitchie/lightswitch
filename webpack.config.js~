@@ -6,7 +6,7 @@ const TARGET = process.env.npm_lifecycle_event;
 const PATHS = {
     app: path.join(__dirname, 'app'),
     build: path.join(__dirname, 'build')
-};
+}
 
 const webpack = require('webpack');
 
@@ -74,7 +74,7 @@ if(TARGET === 'start' || !TARGET) {
             new webpack.HotModuleReplacementPlugin()
         ]
     });
-};
+}
 
 if(TARGET === 'build') {
     module.exports = merge(common, {});    
