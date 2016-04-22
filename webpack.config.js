@@ -1,3 +1,4 @@
+require('es6-promise').polyfill();
 const path = require('path');
 const merge = require('webpack-merge');
 const TARGET = process.env.npm_lifecycle_event;
